@@ -149,6 +149,7 @@ export default function(hljs) {
         begin: /\\\n/,
         relevance: 0
       },
+      NUMBERS,
       hljs.inherit(STRINGS, { className: 'string' }),
       C_LINE_COMMENT_MODE,
       hljs.C_BLOCK_COMMENT_MODE
